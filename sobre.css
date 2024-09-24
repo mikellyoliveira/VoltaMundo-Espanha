@@ -1,0 +1,83 @@
+body{
+    text-align: left;
+
+        background-image: url('img/mapa-de-madrid.jpg'); /* Adicione a extensão correta, como .jpg ou .png */
+        background-size:cover; /* Ajusta a imagem para cobrir todo o fundo */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */}
+
+html, body {
+        height: 100%; /* Faz o HTML e o body ocuparem 100% da altura da viewport */
+        margin: 0;} 
+
+
+.logo-espanha { 
+    display: flex;
+    gap: 210px;
+    padding: 10px;
+    margin: auto;
+    margin: 0%;
+    color: #ddd;
+    background-color: #0b0a0a;
+    align-items: center;}
+
+
+h2 { font-size: 20px;
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+h1{
+
+    font-size: 22px;
+}
+
+.navbar{
+    background-color: #080707;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10x;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+
+color: rgb(22, 202, 215);
+}
+
+
+footer {
+        position: fixed;
+        bottom: 0;
+   
+        
+        text-align: center;
+        
+        padding: 27px;
+        width: 100%;
+        color: #fff;
+        height: 20px;
+        font-size: 10px;
+       
+        
+        
+    background-color: rgb(5, 3, 3);
+}
+
+footer h2{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
